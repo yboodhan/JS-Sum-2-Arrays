@@ -78,7 +78,7 @@ You can view the solution [here](./solutions/p3.js)
 
 ### Problem 4 - Multi-Dimensional Arrays
 
-Write a nested loop (that's one loop inside of another loop!) to print out each element of a tic-tac-toe board. Notice this is a multi-dimensional array. That means when you access it via a normal loop, the elements inside this array are themselves also arrays.
+Check out this multi-dimensional array (that's an array that holds other arrays inside of it!) Your job is to print out each element of a tic-tac-toe board. You'll only need one loop - but keep in mind that you'll need multiple indexes! For example in the `board` below, the value of `board[1][2]` means the second array's third element (remember to start counting from 0!)
 
 ```javascript
 var board = [ [ 'X', 'O', 'X' ],
@@ -86,17 +86,17 @@ var board = [ [ 'X', 'O', 'X' ],
               [ 'O', 'X', 'O' ]
             ];
             
-// TODO: Write a nested loop that prints out the tic-tac-toe board above
+// TODO: Write a loop and print out the tic-tac-toe board above
 ```
 
-> HINT: You can print a newline in JavaScript by writing a `console.log()` with no arguments.
+> HINT: You may want to add a space between each letter on your board
 
 #### Expected Output
 
 ```
-XOX
-OXO
-OXO
+X O X
+O X O
+O X O
 ```
 
 #### Solution Code
