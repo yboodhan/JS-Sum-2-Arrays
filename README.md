@@ -53,7 +53,24 @@ You can view the solution [here](./solutions/p2.js).
 
 ### Problem 3 - Differing Length Arrays
 
-Bonus (work in pairs): Assume that the arrays may be of different lengths, and assume zero values for the shorter array:
+Bonus (work in pairs): Assume that the arrays may be of different lengths, and assume zero values for the shorter array.
+
+#### Expected Output
+
+Given the code:
+
+```javascript
+var a = [1, 2, 3];
+var b = [2, 3, 4, 5, 6];
+
+console.log("sum of arrays =", sumOfArrays(a, b));
+```
+
+We would expect the output:
+
+```
+sum of arrays = [ 3, 5, 7, 5, 6 ]
+```
 
 #### Solution Code
 
