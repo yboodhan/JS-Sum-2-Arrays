@@ -104,6 +104,6 @@ console.log('sum = ' + sum);
 
 #### Solution Code
 
-* [Solution Using Reduce](./solutions/p1b.js)
+* [Solution Using Reduce](./solutions/p1-bonus.js)
 
 > Wow, this solution is only one line of code (not counting variable declaration and console.logs) and we don't need a loop at all!!!
